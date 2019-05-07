@@ -1,3 +1,6 @@
+
+import javax.swing.JOptionPane;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -86,7 +89,12 @@ public class CalcGUI extends javax.swing.JFrame {
 
     private void CalculateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CalculateActionPerformed
         // TODO add your handling code here:
+        float height = Float.parseFloat(heightTxtBox.getText());
+        float length = Float.parseFloat(lengthTxtBox.getText());
         
+        Shape shape = new Shape(height, length);
+        String result = "Area: " + shape.getArea();
+        JOptionPane.showMessageDialog(null, result, "Area!!", JOptionPane.INFORMATION_MESSAGE);
         
     }//GEN-LAST:event_CalculateActionPerformed
 
