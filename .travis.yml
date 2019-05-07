@@ -15,7 +15,6 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: KEY
+    secure: "d6374043-a231-450a-84bd-ec806d601ba2"
   app: dev-ops-application
-  on:
-    repo: felipeluizsoares/rails-test-app
+  
