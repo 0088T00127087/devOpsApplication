@@ -4,7 +4,7 @@ os: linux
 
 addons:
   sonarcloud:
-    organization: "Joe Enright's personal organization" # the key of the org you chose at step #3
+    organization: "0088t00127087-github" # the key of the org you chose at step #3
     token:
       secure: "5fad22f3ac092d0c7267e2bf61a3623fb8167097" # encrypted value of your token
 script:
