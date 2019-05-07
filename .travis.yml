@@ -1,10 +1,14 @@
 language: java
 os: linux
 
-script: xvfb-run 
+
 
 env:
   - TEST_SUITE=units
+
+notifications:
+  slack:
+    on_success: always
 
 addons:
   sonarcloud:
