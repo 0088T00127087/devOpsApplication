@@ -16,12 +16,11 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        //CalcGUI cg = new CalcGUI();
-        //cg.setVisible(true);
+        CalcGUI cg = new CalcGUI();
+        cg.setVisible(true);
         
         
-        Shape shape = new Shape(10, 10);
-        System.out.println(shape.getArea());
+       
     }
     
 }
