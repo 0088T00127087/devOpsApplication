@@ -10,3 +10,4 @@ addons:
       secure: ": 893161a1fd1ac0b68c2a7ded4231bca9b563a25b" # encrypted value of your token
 script:
 - sonar-scanner
+- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
