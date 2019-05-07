@@ -7,8 +7,8 @@ env:
   - TEST_SUITE=units
 
 notifications:
-  slack:
-    on_success: always
+  slack: devoptapplication:ldzLnaRmYoX4y3chvsqyptvD
+  on_success: always
 
 addons:
   sonarcloud:
