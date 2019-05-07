@@ -3,6 +3,9 @@ os: linux
 
 script: xvfb-run 
 
+env:
+  - TEST_SUITE=units
+
 addons:
   sonarcloud:
     organization: "0088t00127087-github" # the key of the org you chose at step #3
