@@ -3,12 +3,6 @@ os: linux
 
 script: xvfb-run 
 
-jobs:
-  include:
-    - stage: "Tests"                # naming the Tests stage
-      name: "Unit Tests"            # names the first Tests stage job
-      script: ./unit-tests
-
 addons:
   sonarcloud:
     organization: "0088t00127087-github" # the key of the org you chose at step #3
